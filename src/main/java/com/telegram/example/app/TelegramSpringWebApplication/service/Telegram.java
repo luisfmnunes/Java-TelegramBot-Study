@@ -10,13 +10,13 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class Telegram {
-    private RestTemplateClient restTemplateClient;
-    private FeingClient feingClient;
+    //private RestTemplateClient restTemplateClient;
+    //private FeingClient feingClient;
     private JavaHttpClient javaHttpClient;
 
-    public Telegram(RestTemplateClient restTemplateClient, FeingClient feingClient, JavaHttpClient javaHttpClient) {
-        this.restTemplateClient = restTemplateClient;
-        this.feingClient = feingClient;
+    public Telegram(/*RestTemplateClient restTemplateClient, FeingClient feingClient,*/ JavaHttpClient javaHttpClient) {
+        //this.restTemplateClient = restTemplateClient;
+        //this.feingClient = feingClient;
         this.javaHttpClient = javaHttpClient;
     }
 
