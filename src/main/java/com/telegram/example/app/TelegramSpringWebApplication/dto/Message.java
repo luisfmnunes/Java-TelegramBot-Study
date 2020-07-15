@@ -1,6 +1,7 @@
 package com.telegram.example.app.TelegramSpringWebApplication.dto;
 
-import java.security.Timestamp;
+
+import java.sql.Timestamp;
 
 public class Message {
     private String id;
